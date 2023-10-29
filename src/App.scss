@@ -1,0 +1,55 @@
+
+
+.App{
+  min-width: 100vw;
+  min-height: 100vh;
+
+  background-color: rgb(10, 199, 89);
+  
+  &--header--titulo{
+    color:rgb(248, 246, 97);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  &--header__listaPersonas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+
+      &__container{
+        display: flex;
+        
+
+        &--input{
+        width: 400px;
+        height: 40px;
+        background-color: rgb(160, 211, 160);
+        font-size: 20px;
+        border: 2px solid green;
+        border-radius: 5px;
+      }
+
+      &--button{
+        width: 400px;
+        height: 45px;
+        border: 2px solid rgb(3, 99, 3);
+        border-radius: 5px;
+        background-color: rgb(106, 179, 106);
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.c-Counter__container {
+    display: flex;
+    gap:10px;
+    align-items: center;
+
+    &--button{
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 98px;
+        height: 87px;
+        border-radius: 5px;
+        border: 2px solid rgb(28, 145, 44);
+        }
+
+        &--p{
+            font-size: 24px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+}
